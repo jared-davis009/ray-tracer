@@ -1,5 +1,7 @@
 use dotenv::dotenv;
-use ray_tracer::{Color, Point3, Ray, Vec3};
+use ray_tracer::point3::Point3;
+use ray_tracer::ray::Ray;
+use ray_tracer::vec3::Vec3;
 use std::{fs::File, sync::Arc};
 use tracing::{debug, trace, Level};
 
